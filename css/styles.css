@@ -5,7 +5,7 @@ body {
 
 .container {
 	transition: 0.5s;
-	width: 60%;
+	width: 70%;
 	display: flex;
 	flex-wrap: wrap;
 	margin: auto;
@@ -119,6 +119,14 @@ header {
 	color: #2d3c49;
 }
 
+.resume-online {
+	padding-top: 27px;	
+}
+
+.resume-online .title__project {
+	padding-top: 40px;	
+}
+
 /*
 ##################################
 ##########    FOOTER    ##########
@@ -160,6 +168,27 @@ li {
 	color: #007bb6;
 }
 
+.github {
+	color: #4078c0;
+}
+
+.fa {
+	transform: rotate(0deg);
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+
+.fa:hover {
+	transform: rotate(10deg);
+	font-size: 50px;
+	-webkit-transition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	-o-transition: all 0.3s ease;
+	-ms-transition: all 0.3s ease;
+}
+
 .title__name, .logo {
 	order: 10;
 }
@@ -170,14 +199,14 @@ li {
 ##################################
 */
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1530px) {
 	.container {
 		transition: 0.5s;
 		width: 90%;
 	}
 }
 
-@media screen and (max-width: 890px) {
+@media screen and (max-width: 1000px) {
 	.container {
 		transition: 0.5s;
 		width: 95%;
@@ -203,7 +232,7 @@ li {
 	}
 }
 
-@media screen and (max-width: 785px) {
+@media screen and (max-width: 930px) {
 	.title__work {
 		margin-top: 5px;
 	}
